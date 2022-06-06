@@ -1,0 +1,53 @@
+body{
+	background-image: url("https://www.desktopbackground.org/download/1280x900/2013/10/18/656011_website-backgrounds-white-blue_1322x936_h.jpg");
+	background-repeat: no-repeat;
+	background-size:1300px 600px;
+	font-family: "Times New Roman",Times,serif;
+	font-size:large;
+}
+h1{
+	color:blue;
+}
+p{
+	size:150%;
+}
+table{
+	float:top;
+	width: 800px;
+	border-collapse:collapse;
+	table-layout:fixed;
+}
+td{
+	vertical-align:top;
+	padding:1px;
+	word-wrap:break-word;
+}
+#fullpage{
+	margin: 10px
+}
+.column1{
+	text-align:left;
+	color:black;
+	width:150px;
+}
+.column2{
+	text-align:left;
+	width:200px;
+}
+.column3{
+	text-align: left;
+	vertical-align:middle;
+	color:LightGray;
+	font-size: small;
+	width:250px;
+}
+.button{
+	border:circle
+	margin:circle;
+	text-align: center;
+	width:100px;
+	color:blue;
+}
+#output{
+	color:darkgreen;
+}

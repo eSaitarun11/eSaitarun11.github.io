@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset = "utf-8">
+<!-- I am using external CS,Javascript files for my web -->
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>web Assignment</title>
+<script type="text/javascript" src="script.js"></script>
+</head>
+<!-- I used image in background -->
+<body>
+<form action="#">
+<div d="fullpage">
+<h1>PRODUCT PURCHASE FORM</h1>
+<p>I have selected a product purchase form.I have aa willing to make this form from past that why i choosen this.
+This form takes firstname and lastname and it wil allow only people above 18 to make purchase. 
+It also checks the password. I have written by CSS and Javascript in different file. Included image in background</p>
+<!--Using table for lable and input box looks good and calling validation function, onblur.  -->
+<table border="0">
+<tr>
+<td class="column1">First Name:</td>
+<td class="column2"><input name="firstname" id="firstname" type="text" onblur="vfirstname();"></td>
+<td class="column3"><span id="firstname1">&nbsp;</span></td>
+</tr> 
+<tr>
+<td class="column1">Last Name:</td>
+<td class="column2"><input name="lastname" id="lastname" type="text" onblur="vlastname();"></td>
+<td class="column3"><span id="lastname1">&nbsp;</span></td>
+</tr>
+<tr>
+<td class="column1">Age:</td>
+<td class="column2"><input name="age" id="age" type="number" onblur="vage();"></td>
+<td class="column3"><span id="age1">&nbsp;</span></td>
+</tr>
+<tr>
+<td class="column1">Gender:</td>
+<td class="column2"><input name="gender" type="radio" value="male">Male<br>
+                    <input name="gender" type="radio" value="female">Female<br>
+                    <input name="gender" type="radio" value="trans">Trans<br></td>
+<td class="column3"><span>&nbsp;</span></td>
+</tr>
+<tr>
+<td class="column1">Phone Number:</td>
+<td class="column2"><input name="number" id="number" type="text" onblur="vnumber();"></td>
+<td class="column3"><span id="number1">xxx-xxx-xxxx</span></td>
+</tr>
+<tr>
+<td class="column1">Password:</td>
+<td class="column2"><input name="password" id="password" type="password" onblur="vpassword();"></td>
+<td class="column3"><span id="password1">&nbsp;</span></td>
+</tr>
+<tr>
+<td class="column1">Repassword:</td>
+<td class="column2"><input name="repassword" id="repassword" type="password" onblur="vrepassword();"></td>
+<td class="column3"><span id="repassword1">&nbsp;</span></td>
+</tr>
+<tr>
+<td class="column1">Products:</td>
+<td class="column2"><input name="product" type="checkbox" value="smart tv">Smart tv<br>
+                    <input name="product" type="checkbox" value="android mobile">Android mobile<br>
+                    <input name="product" type="checkbox" value="laptop">Laptop<br></td>
+<td class="column3"><span>&nbsp;</span></td>
+</tr
+<tr>
+<!-- Given purchase button insted of using submit button -->
+<td class="button" id="button" colspan="3"><span class="buttonbg" onclick="calpurchase();">Purchase now</span></td>
+</tr>
+</table>
+<span id="output">&nbsp;</span>
+</div>
+</form>
+
+</body>
+</html>
